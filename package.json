@@ -1,5 +1,28 @@
 {
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhonghaixiao/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhonghaixiao/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/zhonghaixiao/webpack-demo#readme",
   "devDependencies": {
-    "webpack": "^4.6.0"
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
